@@ -1,0 +1,8 @@
+name: Test Unpinned Action
+on: [push]
+jobs:
+  run-action:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Run test action (unpinned tag)
+        uses: manso4041/test-action@v1
