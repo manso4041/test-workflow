@@ -4,5 +4,5 @@ jobs:
   run-action:
     runs-on: ubuntu-latest
     steps:
-      - name: Run test action (unpinned tag)
+      - name: Run test action
         uses: manso4041/test-action@v1
